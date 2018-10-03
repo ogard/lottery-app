@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "boundary",
+  // "flow.useNPMPackagedFlow": true,
+  // "flow.runOnEdit": false,
+  // "flow.useLSP": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true
+  },
+}

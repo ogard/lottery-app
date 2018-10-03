@@ -1,0 +1,11 @@
+# Folders
+node_modules
+dist
+lib
+
+# Logs
+logs
+*.log
+*.log??
+npm-debug.log*
+

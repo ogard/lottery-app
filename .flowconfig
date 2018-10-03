@@ -1,0 +1,17 @@
+[ignore]
+.*node_modules/.*
+
+[include]
+
+[libs]
+./flow-interfaces/
+
+[lints]
+untyped-import=error
+untyped-type-import=error
+sketchy-null=error
+
+[options]
+experimental.const_params=true
+
+[strict]
