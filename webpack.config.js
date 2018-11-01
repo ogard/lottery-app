@@ -3,6 +3,12 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
   mode: 'development',
   entry: ['./index.js'],
+  devtool: 'source-map',
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './index.html',
+    }),
+  ],
   module: {
     rules: [
       {
@@ -34,10 +40,4 @@ module.exports = {
       },
     ],
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './index.html',
-      filename: './index.html',
-    }),
-  ],
 }

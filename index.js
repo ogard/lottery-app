@@ -5,7 +5,7 @@ import { render } from 'react-dom'
 import { createStore, compose } from 'redux'
 import { install as loopInstall, loop, Effects } from 'redux-loop'
 import { Provider, connect } from 'react-redux'
-import * as Main from './lib/Main.js'
+import * as Main from './src/Main.js'
 
 const isReduxAction = action =>
   action.type != null && (action.type.indexOf('@@redux/') === 0 || action.type === '@@INIT')

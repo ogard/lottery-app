@@ -4,8 +4,8 @@
   "description": "Simple lottery app",
   "private": true,
   "scripts": {
-    "start": "concurrently \"npm run watch\" \"npm run serve\"",
-    "serve": "webpack-dev-server --open --mode development",
+    "start": "webpack-dev-server --open --mode development",
+    "start:transpiled": "concurrently \"npm run watch\" \"npm run serve\"",
     "bundle": "webpack",
     "build": "babel src/ -d lib/ --source-maps",
     "watch": "babel --watch src/ -d lib/ --source-maps",
